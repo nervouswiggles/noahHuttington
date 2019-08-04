@@ -1,0 +1,91 @@
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;
+C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
+C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;
+C:\Program Files (x86)\Boundless\OpenGeo\jetty\jre\bin;
+C:\Program Files (x86)\Boundless\OpenGeo\sdk\bin;C:\Program Files (x86)\Boundless\OpenGeo\pgsql\bin;
+C:\Python37\Scripts;C:\Python37;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\Microsoft VS Code\bin;
+C:\xampp\php;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages;C:\Program Files\java;
+C:\Users\noah.huntington\AppData\Roaming\Composer\vendor\bin;
+C:\OSGeo4W64\bin;
+C:\Users\noah.huntington\AppData\Roaming\npm;C:\temp\mysql\bin
+
+
+
+[C:\Program Files (x86)\Apache Software Foundation\Tomcat 9.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Boundless\OpenGeo\jetty\jre\bin;C:\Program Files (x86)\Boundless\OpenGeo\sdk\bin;C:\Program Files (x86)\Boundless\OpenGeo\pgsql\bin;;.]
+
+
+[C:\Program Files\Java\jdk-12.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Boundless\OpenGeo\jetty\jre\bin;C:\Program Files (x86)\Boundless\OpenGeo\sdk\bin;C:\Program Files (x86)\Boundless\OpenGeo\pgsql\bin;C:\Python37\Scripts;C:\Python37;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\Microsoft VS Code\bin;C:\xampp\php;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages;C:\Program Files\java;C:\Users\noah.huntington\AppData\Roaming\Composer\vendor\bin;C:\OSGeo4W64\bin;C:\Users\noah.huntington\AppData\Roaming\npm;C:\temp\mysql\bin;.]
+
+
+
+
+-- ---------------
+-- Comparing PATHS
+-- ---------------
+
+[C:\Program Files (x86)\Apache Software Foundation\Tomcat 9.0\bin;
+C:\Windows\Sun\Java\bin;
+C:\Windows\system32;
+C:\Windows;
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;
+C:\ProgramData\Oracle\Java\javapath;
+C:\Windows\system32;
+C:\Windows;
+C:\Windows\System32\Wbem; <-- CORRECT!
+C:\Windows\System32\WindowsPowerShell\v1.0\; <-- CORRECT!
+C:\ProgramData\ComposerSetup\bin; <-- CORRECT!
+C:\Program Files\nodejs\; <-- CORRECT!
+C:\Program Files\Git\cmd; <-- CORRECT!
+C:\Program Files\Microsoft VS Code\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\jetty\jre\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\sdk\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\pgsql\bin; <-- CORRECT!
+;.]
+
+
+
+[C:\Program Files\Java\jdk-12.0.1\bin;
+C:\Windows\Sun\Java\bin;
+C:\Windows\system32;
+C:\Windows;
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;
+C:\ProgramData\Oracle\Java\javapath;
+C:\Windows\system32;
+C:\Windows;
+C:\Windows\System32\Wbem;
+C:\Windows\System32\WindowsPowerShell\v1.0\; <-- CORRECT!
+C:\ProgramData\ComposerSetup\bin; <-- CORRECT!
+C:\Program Files\nodejs\; <-- CORRECT!
+C:\Program Files\Git\cmd; <-- CORRECT!
+C:\Program Files\Microsoft VS Code\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\jetty\jre\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\sdk\bin; <-- CORRECT!
+C:\Program Files (x86)\Boundless\OpenGeo\pgsql\bin; <-- CORRECT!
+C:\Python37\Scripts;
+C:\Python37;
+C:\Program Files\PostgreSQL\9.6\bin;
+C:\Program Files\Microsoft VS Code\bin;
+C:\xampp\php;
+C:\Python27;
+C:\Python27\Scripts;
+C:\Python27\Lib\site-packages;
+C:\Program Files\java;
+C:\Users\noah.huntington\AppData\Roaming\Composer\vendor\bin;
+C:\OSGeo4W64\bin;
+C:\Users\noah.huntington\AppData\Roaming\npm;
+C:\temp\mysql\bin;
+.]
+
+
+
+
+
+-- 090419DR
+C:\Program Files (x86)\GeoServer 2.15.1-Service\data_dir\gwc
+geowebcache-diskquota.xml
+geowebcache-diskquota-jdbc.xml
+
+
+
+-- URL to access
+https://gs.furmanrecords.com/

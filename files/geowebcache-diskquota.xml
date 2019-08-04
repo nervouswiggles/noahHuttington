@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gwcQuotaConfiguration>
+  <enabled>true</enabled>
+  <cacheCleanUpFrequency>10</cacheCleanUpFrequency>
+  <cacheCleanUpUnits>SECONDS</cacheCleanUpUnits>
+  <maxConcurrentCleanUps>2</maxConcurrentCleanUps>
+  <globalExpirationPolicyName>LFU</globalExpirationPolicyName>
+  <globalQuota>
+    <value>512</value>
+    <units>GiB</units>
+  </globalQuota>
+  <layerQuotas> <!-- optional -->
+    <LayerQuota>
+      <layer>topp:states</layer>
+      <expirationPolicyName>LRU</expirationPolicyName>
+      <quota>
+        <value>100</value>
+		<units>GiB</units>
+      </quota>
+    </LayerQuota>
+    <!-- Other layers -->
+  </layerQuotas>
+</gwcQuotaConfiguration>
